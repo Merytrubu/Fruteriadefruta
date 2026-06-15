@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Merari Nicole</title>
+
+  
+
+  <style>
+    
+    :root {
+      --morado:  #9A5FBF;
+      --rosa-m:  #BF5FB4;
+      --rosa-c:  #BF5F84;
+      --texto:   #2b2b2b;
+      --gris:    #f7f4fb;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ececec;
+      color: var(--texto);
+    }
+
+    
+    .cv-card {
+      max-width: 860px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    }
+
+    
+    .cv-header {
+      background: linear-gradient(135deg, var(--morado), var(--rosa-c));
+      color: #fff;
+      padding: 36px 40px 28px;
+    }
+
+    .cv-header .badge-rol {
+      display: inline-block;
+      background: rgba(255,255,255,0.25);
+      border-radius: 4px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .cv-header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin: 0 0 10px;
+    }
+
+    .cv-header .info-contacto {
+      font-size: 0.85rem;
+      opacity: 0.9;
+    }
+
+    .cv-header .info-contacto span {
+      margin-right: 16px;
+    }
+
+    
+    .cv-body {
+      padding: 0 40px 36px;
+    }
+
+    
+    .cv-section {
+      display: flex;
+      gap: 24px;
+      border-bottom: 1px solid #e8e0f0;
+      padding: 24px 0;
+    }
+
+    .cv-section:last-child {
+      border-bottom: none;
+    }
+
+    .section-label {
+      min-width: 150px;
+      max-width: 150px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--morado);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding-top: 2px;
+    }
+
+    .section-content {
+      flex: 1;
+    }
+
+    
+    .section-content p {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      margin: 0;
+      color: #444;
+    }
+
+    .habilidad-tag {
+      display: inline-block;
+      background: var(--gris);
+      border: 1px solid #d9c8ef;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.8rem;
+      color: var(--morado);
+      margin: 4px 4px 4px 0;
+      font-weight: 500;
+    }
+
+    
+    .entry + .entry {
+      margin-top: 20px;
+    }
+
+    .entry-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--texto);
+      margin: 0;
+    }
+
+    .entry-empresa {
+      color: var(--rosa-m);
+      font-weight: 600;
+    }
+
+    .entry-meta {
+      font-size: 0.78rem;
+      color: #777;
+      margin: 2px 0 6px;
+    }
+
+    .entry ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    .entry ul li {
+      font-size: 0.85rem;
+      color: #444;
+      margin-bottom: 4px;
+      line-height: 1.55;
+    }
+
+    /* ── Idiomas ── */
+    .idioma-nombre {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--texto);
+    }
+
+    .idioma-nivel {
+      font-size: 0.8rem;
+      color: #888;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="cv-card">
+
+    
+    <div class="cv-header">
+      <div class="badge-rol">Estudiante de Ingeniería en Sistemas</div>
+      <h1>Merari Nicole Trujillo Bucio</h1>
+      <div class="info-contacto">
+        <span>📍 Cuernavaca, Morelos</span>
+        <span>📞 777 000 0000</span>
+        <span>✉️ 20253rd036@utez.edu.mx.com</span>
+        <span>🔗 linkedin.com/in/meraritru</span>
+      </div>
+    </div>
+
+    
+    <div class="cv-body">
+
+      <!-- OBJETIVO -->
+      <div class="cv-section">
+        <div class="section-label">Objetivo</div>
+        <div class="section-content">
+          <p>
+            Estudiante de Ingeniería en Sistemas con enfoque en redes e infraestructura, 
+            interesado en adquirir experiencia práctica en administración de redes, 
+            soporte técnico y desarrollo de soluciones tecnológicas. 
+            Con iniciativa, capacidad de aprendizaje rápido y trabajo en equipo.
+          </p>
+        </div>
+      </div>
+
+      <!-- HABILIDADES -->
+      <div class="cv-section">
+        <div class="section-label">Habilidades</div>
+        <div class="section-content">
+          <ul style="padding-left: 18px; margin: 0;">
+    
+            <li style="font-size: 0.85rem; color: #444; margin-bottom: 4px; line-height: 1.55;">Cisco Packet Tracer</li>
+            <li style="font-size: 0.85rem; color: #444; margin-bottom: 4px; line-height: 1.55;">Java (OOP)</li>
+            <li style="font-size: 0.85rem; color: #444; margin-bottom: 4px; line-height: 1.55;">SQL</li>
+            <li style="font-size: 0.85rem; color: #444; margin-bottom: 4px; line-height: 1.55;">Trabajo en equipo</li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <div class="cv-section">
+        <div class="section-label">Experiencia</div>
+        <div class="section-content">
+
+          <div class="entry">
+            <p> Animadora de Stop Motion
+            
+              <span class="entry-empresa">Independiente</span>
+            </p>
+            <p> </p>
+            <ul>
+              <li>Animaciones bonitas</li>
+              <li>Personajes mayormente hechos por plastilina</li>
+              <li>Trabajaba en un equipo de tres intregrantes</li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- EDUCACIÓN -->
+      <div class="cv-section">
+        <div class="section-label">Educación</div>
+        <div class="section-content">
+
+          <div class="entry">
+            <p class="entry-title">
+              Ingeniería en Desarrollo y Gestión de Software
+              <span class="entry-empresa">UTEZ</span>
+            </p>
+            <p class="entry-meta">Cuernavaca, MX  Zapata</p>
+          </div>
+
+          <div class="entry">
+            <p class="entry-title">
+              Bachillerato
+              <span class="entry-empresa">Centro Educativo Montes de Oca</span>
+            </p>
+            <p class="entry-meta">Cuernavaca, MX Lomas de Tzompantle</p>
+          </div>
+
+        </div>
+      </div>
+
+      
+      <div class="cv-section">
+        <div class="section-label">Idiomas</div>
+        <div class="section-content">
+          <p class="idioma-nombre">Español</p>
+          <p class="idioma-nivel">Nativo</p>
+
+          <p class="idioma-nombre mt-2">Inglés</p>
+          <p class="idioma-nivel">B2 </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
